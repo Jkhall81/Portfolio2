@@ -1,9 +1,25 @@
-import React from 'react';
+import React from "react";
 
 // import components
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Brands from "./components/Brands";
+import Skills from "./components/Skills";
+import Portfolio from "./components/Portfolio";
 
 const App = () => {
-  return <div>react app</div>;
+  return (
+    <div>
+      <Header />
+      <Hero />
+      <Brands />
+      <About />
+      <Skills />
+      <Portfolio />
+      <div style={{ height: "2000px" }}></div>
+    </div>
+  );
 };
 
 export default App;
